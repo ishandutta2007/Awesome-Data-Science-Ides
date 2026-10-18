@@ -4,12 +4,14 @@
 
 # 🌟 Awesome Data Science IDEs & Notebook Platforms
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Science-Ides?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides)
 [![Last Commit](https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Data-Science-Ides?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides/commits/main)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **A curated index of top-tier SaaS platforms, interactive notebooks, and open-source integrated development environments (IDEs) engineered for modern Data Science, Machine Learning, and Analytical Engineering workflows.**
 
@@ -19,7 +21,7 @@
 
 ---
 
-[📊 Sector Overview](#-sector-overview--market-dynamics) • [🏢 SaaS Platforms](#-saas--hosted-platforms) • [💻 Open-Source IDEs](#-open-source-github-projects) • [⚖️ Feature Matrix](#-comparative-feature-matrix) • [🧭 Decision Guide](#-ide-selection-guide) • [❓ FAQs](#-frequently-asked-questions) • [🤝 Contributing](#-how-to-contribute)
+[📊 Sector Overview](#-sector-overview--market-dynamics) • [🏢 SaaS Platforms](#-saas--hosted-platforms) • [💻 Open-Source IDEs](#-open-source-github-projects) • [⚖️ Feature Matrix](#-comparative-feature-matrix) • [🧭 Decision Guide](#-ide-selection-guide) • [❓ FAQs](#-frequently-asked-questions) • [💖 Support](#-support--community) • [⭐ Star History](#-star-history) • [🤝 Contributing](#-how-to-contribute)
 
 ---
 
@@ -226,6 +228,32 @@ While open-source RStudio Server and JupyterLab provide individual developer fun
 <summary><b>4. Are free tiers sufficient for learning and personal data science projects?</b></summary>
 Yes! Platforms like <b>Posit Cloud</b> (25 free hours/mo), <b>Hex Community</b> (5 free projects with full warehouse connectors), and <b>Deepnote</b> (unlimited hours on basic machines) offer generous free tiers. Furthermore, open-source options like <b>Marimo</b>, <b>VS Code</b>, and <b>JupyterLab</b> are 100% free with no compute restrictions other than your local machine hardware.
 </details>
+
+---
+
+## 💖 Support
+
+Thank you for exploring this curated guide to Data Science IDEs! If you find this repository valuable, please consider supporting the project:
+
+- ⭐ **Star this repository** to help other data scientists and engineers find it.
+- 🍴 **Fork and contribute** by adding new tools or updating features and pricing.
+- 📢 **Share with colleagues and communities** on LinkedIn, X/Twitter, or Reddit.
+- ☕ **Buy Me a Coffee / Sponsor:** Support ongoing curation, research, and open-source tooling directly via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors" alt="GitHub Sponsors" />
+  </a>
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+  </a>
+</p>
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Data-Science-Ides&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Data-Science-Ides&type=date&legend=top-left)
 
 ---
 
