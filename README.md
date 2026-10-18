@@ -1,205 +1,259 @@
-# Awesome-Data-Science-Ides
+<div align="center">
 
-## Top Data Science IDEs Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Data Science IDEs Banner" width="100%" />
 
+# 🌟 Awesome Data Science IDEs & Notebook Platforms
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Science-Ides?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides)
+[![Last Commit](https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Data-Science-Ides?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides/commits/main)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**A curated index of top-tier SaaS platforms, interactive notebooks, and open-source integrated development environments (IDEs) engineered for modern Data Science, Machine Learning, and Analytical Engineering workflows.**
 
-*Focused on Notebook Workflows, Collaborative Analytics & Enterprise Runtimes*  
+*Focusing on collaborative cloud notebooks, enterprise MLOps runtimes, reactive data development, and reproducible analytical pipelines.*
 
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Science IDEs**. These tools enable data scientists and analysts to write code, explore data, build models, and share results—from browser-based notebooks that require zero setup to enterprise workbenches with centralized package management, load balancing, and multi-language session support.
-
-
-
-**Examples** include SAS, SPSS, Posit Workbench, Posit Cloud, Dataiku, Alteryx, KNIME, Anaconda Enterprise, Hex, and Deepnote (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, notebook-based development, and open analytical environments—ideal for data scientists, analytics teams, and organizations seeking transparent, vendor-independent data science tooling.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **SAS**  
-
-  **The enterprise analytics standard for regulated industries**—nearly five decades of statistical software development . **SAS Analytics Pro** bundles **Base SAS, SAS/STAT, and SAS/GRAPH** into one package, reducing licensing and maintenance costs versus piecing together niche tools . **SAS Studio** provides a web-based programming environment; **SAS Visual Analytics** and **Visual Data Mining and Machine Learning** add visualization and ML capabilities . **Available for cloud and on-site deployment** . **The benchmark for statistical rigor**—procedures are continually updated to reflect the latest statistical methodology . **Best for**: organizations requiring **audit-grade statistical procedures** and **regulatory compliance** where SAS's track record matters more than modern UX.
-
-
-
-- **IBM SPSS Statistics**  
-
-  **The social science research standard**—decades of use in academia, government, and market research . **SPSS Statistics 28** added a **Statistics Workbook** (combines Syntax and Output into one file), **Relationship Map** for multi-variable visualization, and enhanced accessibility . **SPSS 27** introduced **power analysis procedures** (one-sample, paired, independent t-tests, ANOVA, correlations, regression) with extensive graphical capabilities including 3D plots . **Weighted Cohen's kappa** with linear and quadratic weighting . **Best for**: researchers and analysts who need **menu-driven statistical analysis** with a proven methodological foundation.
-
-
-
-- **Posit Workbench**  
-
-  **Secure and scalable developer platform for data science in R and Python**—the enterprise edition of RStudio Server . **Version 2026.10.0** adds support for **five different session types**: **RStudio Pro, Positron Pro, VS Code, JupyterLab, and Jupyter Notebook** . **Key enterprise features**: **multiple concurrent sessions per user**, **flexible use of multiple R and Python versions on the same server**, **project sharing for collaboration**, **load balancing for capacity and availability**, **administrative dashboard** for session health and resource metrics, **authentication via system accounts, Active Directory, LDAP, SAML, or OpenID**, **PAM support**, **per-user/per-group CPU priorities and memory limits**, **SSL/keep-alive HTTP enhancements**, **IP restriction**, and **session impersonation for troubleshooting** . **The reference implementation for enterprise R/Python data science platforms** .
-
-
-
-- **Posit Cloud**  
-
-  **Browser-based data science platform**—no installation, no configuration, no dependency wrangling . **Positron** (Posit's free, source-available editor for R and Python) is now available on **Posit Cloud in preview**, running entirely in the browser . **Every plan including the free tier** can use Positron—**no expiration date, no credit card required** . **Posit Assistant** (AI coding agent) is available inside the preview, running on **Posit AI Pass** or bring-your-own model provider . **Publishing** for Shiny apps, R Markdown documents, Dash apps, and Flask apps directly from Cloud . **Data Connections** for shared database access across spaces . **Best for**: individuals, academics, and teams wanting **zero-setup R/Python work** with optional AI assistance.
-
-
-
-- **Dataiku**  
-
-  **The Universal AI Platform**—named a **Leader for the 4th consecutive time** in the **2025 Gartner Magic Quadrant for Data Science and Machine Learning Platforms** . **Trusted by 1 in 4 of the world's top companies** (Forbes Global 2000) with **4.8/5 on Gartner Peer Insights** (94% recommend) . **Platform for AI Success** (March 2026) adds **Agent Management** (cross-platform agent governance and business-impact validation), **Cobuild** (AI-assisted pipeline and agent generation from natural language, launching June 2026), and **Reasoning Systems** (governed orchestration across data, models, and agents) . **LLM Mesh** provides a secure, unified gateway to thousands of LLMs—third-party, open source, and self-hosted . **No-code, low-code, and full-code interfaces** for users across the technical spectrum . **Best for**: enterprises wanting **a single governed platform** for analytics, ML, GenAI, and agents without vendor lock-in.
-
-
-
-- **Alteryx**  
-
-  **AI-guided self-service analytics platform** with **300+ drag-and-drop tools** for predictive, prescriptive, and geospatial analytics . **Trusted by 8,000+ customers** including **51%+ of the Global 2000** . **Fall 25.2 release** adds **Alteryx Copilot** (turn words into workflows with step-by-step guidance), **GenAI tools in Designer** (embed OpenAI, Gemini, Anthropic into workflows), **real-time data processing** with Snowflake and Google BigQuery (preview), **SCIM automated user provisioning**, and **Staples** for grouping canvas connections . **SOC2 Type II and ISO 27001 certified** with separate control and data planes . **Best for**: analysts wanting **visual workflow building** with enterprise governance and embedded AI.
-
-
-
-- **KNIME**  
-
-  **Open-core analytics platform with visual workflows**—the free desktop version is genuinely usable, with paid **KNIME Server** for team deployment and automation . **KNIME Server 4.18** (July 2025) supports **KNIME Analytics Platform 5.4 and 5.5** as executors . **Version compatibility is strict**: using a newer client with an older server causes workflow execution failures because new nodes aren't available . **RabbitMQ message queue** required for Server-Executor communication . **Best for**: teams wanting **visual data science** with a free starting point and commercial scaling path.
-
-
-
-- **Anaconda Enterprise**  
-
-  **AI enablement platform for teams at scale**—built on the **Anaconda distribution with 1,400+ data science packages for Python and R** . **Features**: **centralized development environment** with conda environments, **collaboration and project sharing**, **one-click deployment** of notebooks, dashboards, and ML models as REST APIs, **scheduling and automation**, **reproducibility from laptop to cluster**, and **private package repository** for secure open-source supply chains . **Deploy anywhere**—public clouds to bare metal servers in **air-gapped, on-premises environments** . **Best for**: organizations wanting **governed Python/R environments** with enterprise deployment and supply-chain security.
-
-
-
-- **Hex**  
-
-  **Collaborative data workspace** connecting directly to your data warehouse—**build predictive models and dashboards in Python and SQL without data movement** . **Available as centrally-hosted Hex Cloud or private single-tenant VPC** . **Plans** for hobbyists, individuals, teams, and enterprises requiring advanced security, governance, and support . **Best for**: teams wanting **notebook flexibility** with **warehouse-native execution** and **easy sharing**.
-
-
-
-- **Deepnote**  
-
-  **Collaborative notebook platform**—now **open-source** . **Deepnote Pro** (from **$9/month**) includes **unlimited AI** for code generation, bug fixing, and completion; **unlimited projects**; **background code execution for up to 24 hours**; and **$130 worth of CPU/GPU compute monthly** . **New GPUs**: **NVIDIA T4** ($0.90/h), **L4** ($1.56/h), **2x A100** (Enterprise) . **User Groups** for workspace organization (Enterprise) . **Best for**: individuals and teams wanting **AI-native notebook collaboration** with transparent compute pricing.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **RStudio**  
-
-  **Integrated Development Environment for R** (AGPL-3.0 for open-source edition) . **The most widely used R IDE**—**RStudio Desktop** runs locally; **RStudio Server** provides browser-based access . **The open-source edition includes the core IDE**: **console, source editor, environment pane, plots, history, files, and help** . **Posit Workbench** adds the enterprise features (multi-session, load balancing, SSO, session impersonation) . **The reference implementation for R development** .
-
-
-
-- **Jupyter Notebook / JupyterLab**  
-
-  **Web-based interactive development environment for notebooks, code, and data** (BSD-3-Clause) . **The foundational notebook standard**—**supports 40+ programming languages** including Python, R, Julia, and Scala . **JupyterLab** is the next-generation interface with **tabs, split views, and a file browser** . **The most widely adopted notebook environment**—the foundation for Hex, Deepnote, Posit Cloud, and countless other platforms.
-
-
-
-- **Positron**  
-
-  **Free, source-available code editor for R and Python** (open-source) . **The modern alternative to RStudio** from Posit—**native Data Explorer, Variables pane, persistent Console**, and **Posit Assistant** (AI coding agent) . **Available on Posit Cloud in preview**—runs entirely in the browser with no download . **Used by 100,000+ people** . **The emerging standard for R/Python data science editing** .
-
-
-
-- **Apache Zeppelin**  
-
-  **Web-based notebook for interactive data analytics** (Apache-2.0) . **Supports multiple interpreters** including Spark, Python, R, and SQL . **The enterprise notebook choice** for Hadoop/Spark ecosystems.
-
-
-
-- **Polynote**  
-
-  **Polyglot notebook with first-class Scala support** (Apache-2.0) . **The Netflix-originated notebook**—mixes Scala, Python, and SQL in one notebook with **dependency management and reproducibility** features.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **JupyterLab** — Next-generation web-based UI for Jupyter (BSD-3-Clause) . **The modern notebook interface**—tabs, split views, and extensions.
-
-- **Jupyter Notebook** — The original web application (BSD-3-Clause) . **The classic interface**—simple, stable, widely deployed.
-
-- **RStudio Desktop** — Local R IDE (AGPL-3.0) . **The standard for local R development**.
-
-- **VS Code + Jupyter Extension** — Notebook support in VS Code (MIT) . **The most popular editor with notebook integration**—combines IDE features with notebook execution.
-
-- Community **n8n** workflows for notebook execution scheduling and data science pipeline automation.
-
-
-
-**Frameworks for building custom systems**: Combine **JupyterLab** for notebook-based exploration with **RStudio** for R-specific work, **Positron** for modern R/Python editing, **Apache Zeppelin** for Spark ecosystem integration, and **VS Code + Jupyter** for a unified development environment—creating a comprehensive open-source data science IDE stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Data science IDEs handling enterprise data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls.
-
-- **Open-source data science IDEs are mature for notebook workflows but limited for enterprise governance.** **Jupyter** is the foundational notebook standard with 40+ language support . **RStudio** is the most widely used R IDE . **Positron** is the modern R/Python editor with browser availability on Posit Cloud . **But no open-source IDE provides the centralized package management, load balancing, SSO, and session impersonation of Posit Workbench or Anaconda Enterprise**—those are the commercial value-adds .
-
-- **The "notebook vs. IDE" distinction matters.** **Jupyter** optimizes for **exploration and storytelling**—cells, outputs, and narrative in one document . **RStudio/Positron** optimize for **R/Python development**—console, environment, and source editor integrated . **Posit Workbench** adds **multi-session and enterprise controls** for teams . **Choose based on whether you're exploring or engineering.**
-
-- **Posit Cloud's free tier is genuinely usable.** **Positron is available on every plan including free**—no expiration, no credit card . **This removes the last barrier for academics, consultants, and independent data scientists** who don't have admin rights or IT support for local installation .
-
-- **The enterprise platforms serve different organizational shapes.** **SAS and SPSS** for **regulated industries and research** requiring audit-grade statistical procedures . **Dataiku** for **unified governed AI platforms** spanning analytics, ML, GenAI, and agents . **Alteryx** for **visual workflow analysts** with embedded GenAI . **KNIME** for **visual data science with a free starting point** . **Posit Workbench and Anaconda Enterprise** for **centralized R/Python environments** with enterprise controls . **Choose based on your team's skills, governance requirements, and existing ecosystem.**
-
-- **Self-hosted open-source solutions require proper infrastructure management, package version control, and ongoing maintenance.** **Version compatibility matters**—KNIME Server 4.18 requires KNIME Analytics Platform 5.4/5.5 as executor; mismatched versions cause workflow failures . **Package drift is a real risk**—Anaconda Enterprise's private package repository addresses this by securing the open-source supply chain .
-
-
+📅 **Last Updated:** October 2026
 
 ---
 
+[📊 Sector Overview](#-sector-overview--market-dynamics) • [🏢 SaaS Platforms](#-saas--hosted-platforms) • [💻 Open-Source IDEs](#-open-source-github-projects) • [⚖️ Feature Matrix](#-comparative-feature-matrix) • [🧭 Decision Guide](#-ide-selection-guide) • [❓ FAQs](#-frequently-asked-questions) • [🤝 Contributing](#-how-to-contribute)
 
+---
 
-**Made for data scientists, analysts, and organizations building transparent data science solutions.**  
+</div>
 
-Let's make Data Science IDEs more open, data-driven, and collaborative.
+## 📖 Introduction & Ecosystem Scope
+
+Modern data science demands far more than basic text editing. Data professionals need interactive runtime environments where exploratory code execution, rich visualizations, package management, distributed computing, and reproducible pipelines converge seamlessly.
+
+This repository tracks two complementary pillars of the modern analytical toolchain:
+1. **🏢 Enterprise & Cloud SaaS Platforms:** Governed, multi-tenant workbenches offering zero-setup browser computing, SSO, centralized package control, automated load balancing, and enterprise AI orchestration.
+2. **💻 Open-Source Projects & Notebooks:** Community-driven, self-hostable runtimes, reactive computational notebooks, and IDEs providing total developer sovereignty, transparency, and vendor independence.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **Data Science & Machine Learning Platform market** is estimated at **$140B–$220B in 2025–2026**, expanding at a rapid **CAGR of ~17%–20%** toward an estimated $750B+ by 2035 driven by generative AI adoption, data democratization, and enterprise compliance mandates. 
+
+The sector is **moderately fragmented**: legacy enterprise stalwarts (IBM, SAS) and cloud hyperscalers anchor regulated industries and large corporations, while specialized collaborative notebook startups (Hex, Deepnote, Dataiku) and innovative open-source architectures (JupyterLab, Marimo, Positron, VS Code) maintain high differentiation across code-first, visual workflow, and warehouse-native niches—preventing a single "winner-take-all" outcome.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+Below is the comprehensive comparison of leading SaaS data science workbenches and hosted analytics platforms, **sorted in descending order by company size** (market capitalization or private valuation).
+
+| 🏢 Product & Provider | 📈 Company Size (Revenue / Valuation) | 💰 Pricing (Starting Tier) | 🎁 Free Tier / Free Trial Limits | 🎯 Core Capabilities & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[IBM SPSS Statistics](https://www.ibm.com/products/spss-statistics)** | **$215 Billion** Market Cap *(~$62.5B Annual Revenue)* | **$109 / user / month** *(Base Subscription auto-renewing digital license)* | **14-day free trial** *(Full desktop access to SPSS Base + advanced statistical modules, no credit card required)* | 🏛️ **Regulated Research & Academia:** The gold standard for social sciences, psychology, clinical trials, and government research requiring menu-driven, audit-grade statistical rigor, ANOVA, and custom tables. |
+| **[SAS Analytics Pro & Viya](https://www.sas.com/)** | **~$14.0 Billion** Valuation *(~$3.2B Annual Revenue)* | **~$8,700 / year** *(Standard commercial base license; or SAS Viya pay-as-you-go from ~$0.55/core-hour)* | **Free forever via SAS OnDemand for Academics** *(5GB cloud storage, 2 vCPUs, SAS Studio interface for non-commercial study)* / **14-day SAS Viya free trial** *(Cloud analytics, visual ML & pipelines)* | 🏦 **Enterprise Compliance & Banking:** Audit-grade statistical procedures for regulated banking, risk modeling, and FDA clinical submission pipelines where decades of methodological stability are mandatory. |
+| **[Alteryx One / Designer](https://www.alteryx.com/)** | **$4.4 Billion** Valuation *(Acquired by Clearlake/Insight; ~$900M Annual Revenue)* | **$250 / user / month** *($3,000 / user / year billed annually for Starter Edition)* | **30-day free trial** *(Full Alteryx Designer desktop & cloud experience, 1 named user, unlimited workflow executions)* | 🔄 **Visual Self-Service ETL:** 300+ drag-and-drop workflow tools for data preparation, geospatial analytics, and predictive modeling with Alteryx Copilot GenAI integration for enterprise business analysts. |
+| **[Dataiku](https://www.dataiku.com/)** | **$3.7 Billion** Valuation *(Series F; ~$250M+ ARR)* | **$499 / month** *(Dataiku Cloud Launch tier)* | **Free forever edition (Self-Hosted)** *(Up to 3 users, local compute, visual ML & data prep)* / **14-day Cloud Trial** *(4 vCPUs, 32 GB RAM, 1 API service, up to 5 collaborators)* | 🤖 **Universal Governed AI:** Named a Leader in the 2025 Gartner Magic Quadrant for DS/ML; features unified LLM Mesh, Agent Management, Cobuild natural language pipelines, and no-code/code-first hybrid tooling. |
+| **[Anaconda Cloud & Enterprise](https://www.anaconda.com/)** | **$1.5 Billion** Valuation *(Series E; ~$100M+ ARR)* | **$15 / user / month** *(Starter Plan with 10GB cloud storage & AI Assistant)* | **Free forever plan** *(For individuals, students, non-profits, and businesses with ≤200 employees; includes 5GB cloud storage, standard conda repositories, and 5 compute hours/month)* | 📦 **Governed Package Ecosystem:** Centralized Python/R package management, private package repositories for secure open-source supply chains, air-gapped enterprise deployments, and one-click model APIs. |
+| **[Posit Workbench](https://posit.co/products/enterprise/workbench/)** | **~$1.0 Billion** Valuation *(Posit PBC; ~$100M+ Annual Revenue)* | **$4,995 / year** *(Standard base tier for 5 named users)* | **45-day free evaluation trial** *(Full enterprise server license for up to 5 concurrent sessions across RStudio Pro, Positron, VS Code, and JupyterLab with load balancing)* | 🖥️ **Enterprise Multi-IDE Platform:** Reference standard for centralized R & Python data science teams; provides multiple concurrent sessions, PAM/SSO authentication, session impersonation, and load balancing. |
+| **[Posit Cloud](https://posit.cloud/)** | **~$1.0 Billion** Valuation *(Posit PBC; ~$100M+ Annual Revenue)* | **$25 / month** *(Cloud Basic: 150 compute hours/mo, 8GB RAM, 2 CPUs, unlimited projects)* | **Free forever plan** *(25 compute hours/month, 1GB RAM, 1 CPU, 1 hr max session execution, up to 25 projects, 3 concurrent projects)* | ☁️ **Instant Zero-Setup R/Python:** Browser-based data science platform featuring preview access to Positron with built-in Posit Assistant AI, Shiny/Flask app publishing, and zero local configuration. |
+| **[Hex](https://hex.tech/)** | **~$1.0 Billion** Valuation *(Series C; $140M+ total funding; ~$30M+ ARR)* | **$36 / editor / month** *(billed annually at $432/yr or $45/mo monthly for Professional tier)* | **Free forever plan (Community)** *(Up to 5 projects, 1 author seat, unlimited read-only viewers, 4GB RAM / 0.5 CPU compute profile, 100 AI actions/month)* | 📊 **Warehouse-Native Collaborative Workspace:** Connects directly to Snowflake, BigQuery, and Databricks; blends SQL and Python in reactive notebooks to build interactive data apps without moving data. |
+| **[Deepnote](https://deepnote.com/)** | **~$250 Million** Valuation *(Series A; $24M+ funding; ~$10M+ ARR)* | **$9 / editor / month** *(billed annually or $12/month monthly for Team plan)* | **Free forever plan** *(Unlimited personal projects, 1 editor, 3 active projects, unlimited compute hours on Basic machines: 2 vCPU, 5GB RAM)* | ⚡ **Multiplayer Real-Time Notebooks:** AI-native collaborative data science workspace featuring Google Docs-style multiplayer editing, Deepnote AI assistance, scheduling, and on-demand GPU instances (T4, L4, A100). |
+| **[KNIME Community & Business Hub](https://www.knime.com/)** | **~$100 Million** Valuation *(~$30M+ funding; ~$30M+ ARR)* | **$19 / month** *(Community Hub Pro: 120 workflow credits/mo) or $99/mo for Team (3 members)* | **Free forever plan** *(KNIME Analytics Platform: 100% free unlimited desktop execution, 300+ data connectors) + Community Hub Free (20 K-AI interactions/month, public workflow repository)* | 🧩 **Open-Core Visual Workflow Automation:** Free desktop graphical canvas for ETL, machine learning, and reporting; commercial hub enables cloud execution, scheduled pipelines, and team collaboration spaces. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Explore the premier open-source data science IDEs, interactive notebook frameworks, and analytics workbenches. **Sorted in descending order by GitHub stargazers count.**
+
+### 1. [Visual Studio Code](https://github.com/microsoft/vscode) [![GitHub stars](https://img.shields.io/github/stars/microsoft/vscode?style=social&color=white)](https://github.com/microsoft/vscode/stargazers)
+- **License:** MIT License  
+- **Primary Languages:** TypeScript, JavaScript, Python, R, Julia, C++  
+- **Overview:** The world's most widely adopted code editor, transformed into a powerhouse Data Science IDE through official Microsoft extensions for Python, Jupyter Notebooks, R, Julia, and Docker. Combines native interactive notebook cell execution, variable inspectors, remote SSH/container development, and debugging in a single interface.
+- **Key Features:** Native `.ipynb` support, interactive variable dataframe viewer, GitHub Copilot integration, remote development containers (Dev Containers).
+
+### 2. [DBeaver](https://github.com/dbeaver/dbeaver) [![GitHub stars](https://img.shields.io/github/stars/dbeaver/dbeaver?style=social&color=white)](https://github.com/dbeaver/dbeaver/stargazers)
+- **License:** Apache-2.0  
+- **Primary Languages:** Java, SQL  
+- **Overview:** Free universal database tool and SQL IDE supporting any database with a JDBC driver (PostgreSQL, MySQL, ClickHouse, Snowflake, DuckDB, SQLite, BigQuery). Essential for analytical engineers and data scientists inspecting tables, writing complex analytical SQL, and visualizing schema relationships.
+- **Key Features:** ER diagram generation, spatial data viewer (GIS), data export to CSV/JSON/Markdown, visual query builder, and mock data generation.
+
+### 3. [Marimo](https://github.com/marimo-team/marimo) [![GitHub stars](https://img.shields.io/github/stars/marimo-team/marimo?style=social&color=white)](https://github.com/marimo-team/marimo/stargazers)
+- **License:** Apache-2.0  
+- **Primary Languages:** Python, TypeScript  
+- **Overview:** A next-generation reactive Python notebook that solves the hidden-state reproducibility problems plaguing legacy notebooks. Running a cell automatically triggers all downstream dependent cells (like a spreadsheet DAG). Can be executed as standard pure Python scripts, deployed as interactive web apps, or compiled to WASM.
+- **Key Features:** Reactive execution graph, pure Python `.py` file format, built-in interactive UI elements (sliders, dropdowns, tables), package sandboxing, and zero hidden out-of-order state.
+
+### 4. [JupyterLab](https://github.com/jupyterlab/jupyterlab) [![GitHub stars](https://img.shields.io/github/stars/jupyterlab/jupyterlab?style=social&color=white)](https://github.com/jupyterlab/jupyterlab/stargazers)
+- **License:** BSD-3-Clause  
+- **Primary Languages:** TypeScript, Python  
+- **Overview:** The modular and extensible next-generation web interface for Project Jupyter. Supports 40+ programming languages through pluggable kernels (IPython, IRkernel, IJulia). Offers tabbed dock panels, integrated terminals, markdown renderers, and a massive ecosystem of third-party extensions.
+- **Key Features:** Flexible multi-panel layout, interactive debugger, real-time collaboration (RTC) extension, Git integration, and language-agnostic kernel execution.
+
+### 5. [Jupyter Notebook](https://github.com/jupyter/notebook) [![GitHub stars](https://img.shields.io/github/stars/jupyter/notebook?style=social&color=white)](https://github.com/jupyter/notebook/stargazers)
+- **License:** BSD-3-Clause  
+- **Primary Languages:** Python, JavaScript  
+- **Overview:** The foundational document-centric interactive computing standard. Combines live code execution, equations, narrative prose, and rich visual output into a shareable `.ipynb` file format that underpins the entire modern data science industry.
+- **Key Features:** Document-oriented interface, lightweight setup, broad educational adoption, and seamless export to HTML, PDF, and LaTeX via nbconvert.
+
+### 6. [Spyder IDE](https://github.com/spyder-ide/spyder) [![GitHub stars](https://img.shields.io/github/stars/spyder-ide/spyder?style=social&color=white)](https://github.com/spyder-ide/spyder/stargazers)
+- **License:** MIT License  
+- **Primary Languages:** Python  
+- **Overview:** The Scientific Python Development Environment—designed specifically for scientists, researchers, and quantitative analysts. Provides a familiar MATLAB-style experience with an interactive IPython console, deep multi-dimensional variable inspector, and Matplotlib integration.
+- **Key Features:** Interactive Variable Explorer for NumPy arrays and Pandas DataFrames, real-time code analysis, integrated documentation viewer, and advanced interactive debugging.
+
+### 7. [JupyterHub](https://github.com/jupyterhub/jupyterhub) [![GitHub stars](https://img.shields.io/github/stars/jupyterhub/jupyterhub?style=social&color=white)](https://github.com/jupyterhub/jupyterhub/stargazers)
+- **License:** BSD-3-Clause  
+- **Primary Languages:** Python  
+- **Overview:** The multi-user orchestrator for Jupyter Notebooks and JupyterLab. Enables universities, research laboratories, and corporate data teams to serve scalable, containerized computing environments to thousands of simultaneous users on Kubernetes (Zero to JupyterHub) or Docker.
+- **Key Features:** Pluggable authentication (OAuth, GitHub, LDAP, PAM), containerized user pod spawning, dynamic resource quotas, and centralized administration.
+
+### 8. [Apache Zeppelin](https://github.com/apache/zeppelin) [![GitHub stars](https://img.shields.io/github/stars/apache/zeppelin?style=social&color=white)](https://github.com/apache/zeppelin/stargazers)
+- **License:** Apache-2.0  
+- **Primary Languages:** Java, Scala, Python  
+- **Overview:** Web-based polyglot notebook designed for distributed Big Data analytics. Features pluggable backend interpreters that enable seamless mixing of Apache Spark (Scala), PySpark, SQL, Python, R, and Shell within the same computational notebook session.
+- **Key Features:** Native Apache Spark cluster integration, dynamic forms and widgets, multi-interpreter architecture, and built-in interactive pivot tables and charts.
+
+### 9. [Quarto CLI](https://github.com/quarto-dev/quarto-cli) [![GitHub stars](https://img.shields.io/github/stars/quarto-dev/quarto-cli?style=social&color=white)](https://github.com/quarto-dev/quarto-cli/stargazers)
+- **License:** GPL-2.0  
+- **Primary Languages:** TypeScript, Pandoc  
+- **Overview:** An open-source scientific and technical publishing system from Posit. Compiles plain markdown text, Jupyter Notebooks, or Knitr documents into high-quality publications, books, interactive dashboards, presentations, and websites across Python, R, Julia, and Observable.
+- **Key Features:** Multi-language execution, publication-quality typography, automated citation formatting, interactive HTML widgets, and static site generator capabilities.
+
+### 10. [Orange Data Mining](https://github.com/biolab/orange3) [![GitHub stars](https://img.shields.io/github/stars/biolab/orange3?style=social&color=white)](https://github.com/biolab/orange3/stargazers)
+- **License:** GPL-3.0  
+- **Primary Languages:** Python  
+- **Overview:** Open-source visual programming environment for exploratory data analysis, data mining, and machine learning. Users drag and drop prebuilt analytical widgets to build interactive workflows with zero code required.
+- **Key Features:** Rich interactive visual widgets (scatter plots, dendrograms, tree viewers), visual model training (Random Forest, SVM, Naive Bayes), and add-on extensions for bioinformatics and text mining.
+
+### 11. [Pluto.jl](https://github.com/fonsp/Pluto.jl) [![GitHub stars](https://img.shields.io/github/stars/fonsp/Pluto.jl?style=social&color=white)](https://github.com/fonsp/Pluto.jl/stargazers)
+- **License:** MIT License  
+- **Primary Languages:** Julia, JavaScript  
+- **Overview:** Lightweight, reactive notebook environment built specifically for the Julia scientific language. Every cell behaves like a reactive cell in a computational graph—changing a variable in one cell immediately and automatically recalculates all affected cells without manual execution.
+- **Key Features:** 100% reactive execution, pure Julia script persistence (`.jl`), built-in package environment management, interactive UI slider bindings, and zero hidden global mutable state.
+
+### 12. [RStudio Desktop & Server](https://github.com/rstudio/rstudio) [![GitHub stars](https://img.shields.io/github/stars/rstudio/rstudio?style=social&color=white)](https://github.com/rstudio/rstudio/stargazers)
+- **License:** AGPL-3.0 (Open-Source Edition)  
+- **Primary Languages:** C++, Java, TypeScript, R  
+- **Overview:** The quintessential integrated development environment for the R language. Combines a console, syntax-highlighting editor with smart completion, workspace environment inspector, integrated documentation, graphics plotting pane, and comprehensive package building tools.
+- **Key Features:** Native package management, Shiny application preview and debugging, Git/SVN version control pane, Knitr report authoring, and workspace history persistence.
+
+### 13. [Polynote](https://github.com/polynote/polynote) [![GitHub stars](https://img.shields.io/github/stars/polynote/polynote?style=social&color=white)](https://github.com/polynote/polynote/stargazers)
+- **License:** Apache-2.0  
+- **Primary Languages:** Scala, TypeScript, Python  
+- **Overview:** Created by Netflix, Polynote is a polyglot interactive notebook with first-class Apache Spark and Scala support. Enforces deterministic top-to-bottom cell execution to eliminate reproducibility hazards and allows transparent data sharing across Scala, Python, and SQL cells.
+- **Key Features:** Top-to-bottom execution flow, interactive Scala auto-completion via metals, seamless Spark cluster monitoring, and cross-language variable sharing.
+
+### 14. [Positron](https://github.com/posit-dev/positron) [![GitHub stars](https://img.shields.io/github/stars/posit-dev/positron?style=social&color=white)](https://github.com/posit-dev/positron/stargazers)
+- **License:** Elastic License 2.0 / Open-Source Core  
+- **Primary Languages:** TypeScript, Python, R  
+- **Overview:** Posit's next-generation data science IDE built on the modern VS Code Code-OSS foundation. Engineered specifically for exploratory data science in Python and R, offering a persistent console, active data explorer, dedicated variables pane, and native AI pair programming.
+- **Key Features:** Native DataFrame Inspector with sorting and filtering, dedicated Variables pane, persistent execution console, and deep language runtime awareness for Python and R.
+
+---
+
+## ⚖️ Comparative Feature Matrix
+
+| Tool / Platform | Deployment Mode | Supported Languages | Core Strength | AI Assistance | Enterprise Governance |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **IBM SPSS Statistics** | Desktop / Cloud SaaS | SPSS Syntax, Python, R | Survey & Classical Statistics | 🟡 Basic | 🟢 High (Audit-grade) |
+| **SAS Viya / Pro** | On-Prem / SaaS Cloud | SAS, Python, R | Regulated Risk & FDA Clinical | 🟢 SAS Viya Copilot | 🟢 Maximum |
+| **Alteryx Designer** | Desktop / Cloud SaaS | Visual Canvas, Python, R | Drag-and-Drop ETL / Pipelines | 🟢 Alteryx Copilot | 🟢 High |
+| **Dataiku** | Self-Hosted / SaaS Cloud | Python, R, SQL, Visual | Unified Enterprise AI & ML | 🟢 Cobuild & LLM Mesh | 🟢 Maximum |
+| **Anaconda Enterprise**| Self-Hosted / Cloud SaaS | Python, R | Governed Package Repository | 🟢 Anaconda Assistant | 🟢 High |
+| **Posit Workbench** | On-Prem / VPC / Cloud | R, Python, SQL | Multi-IDE Enterprise Server | 🟢 Posit Assistant | 🟢 High |
+| **Hex** | Cloud SaaS / VPC | SQL, Python, R | Warehouse-Native Interactive Apps | 🟢 Hex Magic AI | 🟢 High |
+| **Deepnote** | Cloud SaaS | Python, SQL, R | Real-Time Multiplayer Notebooks | 🟢 Deepnote AI | 🟡 Medium |
+| **VS Code + Jupyter** | Desktop / Web / Containers| Language Agnostic (100+) | Extensibility & Universal Code | 🟢 GitHub Copilot | 🟡 User Managed |
+| **Marimo** | Self-Hosted Local / Web | Python | Reactive Reproducible Notebooks | 🟡 Extensible | 🟡 User Managed |
+| **JupyterLab** | Self-Hosted / JupyterHub | 40+ Languages | Flexible Docked Notebook Layout | 🟡 Extension-based | 🟢 via JupyterHub |
+| **RStudio** | Desktop / Server | R, Python, SQL | Statistical Computing & Shiny | 🟡 Copilot Plugin | 🟢 via Workbench |
+| **Positron** | Desktop / Cloud Preview | R, Python | Data Inspection & Clean State | 🟢 Posit Assistant | 🟡 Emerging |
+
+---
+
+## 🧭 IDE Selection Guide: Which Tool Should You Choose?
+
+```mermaid
+flowchart TD
+    Start["What is your primary analytical workflow?"]
+    
+    Start -->|"Regulated & Classical Statistics"| Regulated["Need audit-grade validation?"]
+    Regulated -->|"Clinical Trials & Academia"| SPSS["IBM SPSS Statistics"]
+    Regulated -->|"Banking, Risk & Pharma"| SAS["SAS Analytics Pro / Viya"]
+    
+    Start -->|"Enterprise Drag-and-Drop ETL"| Visual["Visual canvas preferred?"]
+    Visual -->|"Commercial Enterprise"| Alteryx["Alteryx Designer"]
+    Visual -->|"Open Source / Desktop"| Orange["Orange Data Mining / KNIME"]
+    
+    Start -->|"Collaborative Cloud Notebooks"| Cloud["Multiplayer & Warehouse-native?"]
+    Cloud -->|"Snowflake / BigQuery native"| Hex["Hex Data Workspace"]
+    Cloud -->|"Real-time collaborative AI"| Deepnote["Deepnote"]
+    
+    Start -->|"Code-First Developer (Python / R)"| Code["Deployment preference?"]
+    Code -->|"Reactive & Reproducible Python"| Marimo["Marimo Reactive Notebook"]
+    Code -->|"Universal Extensible IDE"| VSCode["VS Code + Jupyter"]
+    Code -->|"R & Statistical Science"| RStudio["RStudio / Positron"]
+    Code -->|"Enterprise Multi-User Server"| PositW["Posit Workbench / JupyterHub"]
+```
+
+- **For Enterprise Teams & Regulated Industries:** Choose **Dataiku** or **SAS/SPSS** when strict model governance, FDA/Basel compliance, and enterprise LLM gateways are required.
+- **For Warehouse-Native Analytics (Modern Data Stack):** Choose **Hex** to execute SQL and Python directly inside Snowflake, BigQuery, or Databricks without data egress.
+- **For Collaborative Fast-Moving Data Teams:** Choose **Deepnote** for instant real-time multiplayer editing and built-in GPU acceleration.
+- **For Modern Python Data Scientists:** Choose **Marimo** for reactive, non-linear reproducibility or **VS Code + Jupyter** for end-to-end software engineering workflows.
+- **For Statistical Computing & R Specialists:** Choose **RStudio** (or the modern **Positron**) backed by **Posit Workbench** for enterprise team deployment.
+
+---
+
+## ❓ Frequently Asked Questions (FAQs)
+
+<details>
+<summary><b>1. What is the key difference between a computational notebook and a traditional IDE?</b></summary>
+Traditional IDEs (like PyCharm or standard VS Code) execute code in monolithic script runs from top to bottom, making them ideal for software engineering and application development. Computational notebooks (Jupyter, Marimo, Hex) allow iterative, cell-by-cell execution, preserving intermediate memory states and rendering graphs, dataframes, and markdown inline—optimizing for exploratory data analysis (EDA) and narrative storytelling.
+</details>
+
+<details>
+<summary><b>2. Why is hidden state a problem in Jupyter notebooks, and how do modern tools fix it?</b></summary>
+In classic Jupyter notebooks, cells can be executed out of order, leading to "hidden state" where variable states do not reflect the visual sequence of the notebook. Modern reactive alternatives like <b>Marimo</b> and <b>Pluto.jl</b> model execution as a Directed Acyclic Graph (DAG): modifying or running an upstream cell automatically invalidates and recomputes all downstream dependents, guaranteeing strict reproducibility.
+</details>
+
+<details>
+<summary><b>3. When should an organization choose Posit Workbench over free open-source RStudio/JupyterLab?</b></summary>
+While open-source RStudio Server and JupyterLab provide individual developer functionality, <b>Posit Workbench</b> provides enterprise capabilities: simultaneous hosting of multiple session types (VS Code, JupyterLab, RStudio, Positron), centralized PAM/LDAP/SAML single sign-on, server-side load balancing, per-user CPU and memory quotas, and session impersonation for administrative debugging.
+</details>
+
+<details>
+<summary><b>4. Are free tiers sufficient for learning and personal data science projects?</b></summary>
+Yes! Platforms like <b>Posit Cloud</b> (25 free hours/mo), <b>Hex Community</b> (5 free projects with full warehouse connectors), and <b>Deepnote</b> (unlimited hours on basic machines) offer generous free tiers. Furthermore, open-source options like <b>Marimo</b>, <b>VS Code</b>, and <b>JupyterLab</b> are 100% free with no compute restrictions other than your local machine hardware.
+</details>
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! To add a new platform or update existing information:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 **Create a branch** for your feature or update: `git checkout -b feature/add-new-ide`.
+3. ✏️ **Edit `README.md`**: Follow the established formatting conventions (include name, URL, specific pricing, exact free tier limits, badges, and factual summaries).
+4. 🔍 **Verify details**: Ensure links resolve to official vendor or GitHub project repositories.
+5. 🚀 **Submit a Pull Request (PR)** with a concise summary of your addition.
+
+⭐ **Star this repository** if you find it helpful for your data science and analytics engineering journey!
+
+---
+
+## 📜 Disclaimer
+
+- *This repository is community-curated for informational and comparative purposes only. Trademarks and product names belong to their respective copyright holders.*
+- *Data compliance and governance: Data science IDEs processing sensitive customer data must adhere to relevant compliance frameworks (SOC2, HIPAA, GDPR, CCPA).*
+
+---
+
+<div align="center">
+
+**Built with ❤️ for Data Scientists, Machine Learning Engineers, and Analytics Developers worldwide.**
+
+*Let's make Data Science IDEs more transparent, reproducible, and accessible.*
+
+</div>
