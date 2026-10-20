@@ -6,7 +6,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Science-Ides?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Science-Ides?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Science-Ides)
@@ -68,85 +68,85 @@ Below is the comprehensive comparison of leading SaaS data science workbenches a
 
 Explore the premier open-source data science IDEs, interactive notebook frameworks, and analytics workbenches. **Sorted in descending order by GitHub stargazers count.**
 
-### 1. [Visual Studio Code](https://github.com/microsoft/vscode) [![GitHub stars](https://img.shields.io/github/stars/microsoft/vscode?style=social&color=white)](https://github.com/microsoft/vscode/stargazers)
+### 1. [Visual Studio Code](https://github.com/microsoft/vscode) [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/vscode?style=social&color=white)](https://github.com/microsoft/vscode/stargazers)
 - **License:** MIT License  
 - **Primary Languages:** TypeScript, JavaScript, Python, R, Julia, C++  
 - **Overview:** The world's most widely adopted code editor, transformed into a powerhouse Data Science IDE through official Microsoft extensions for Python, Jupyter Notebooks, R, Julia, and Docker. Combines native interactive notebook cell execution, variable inspectors, remote SSH/container development, and debugging in a single interface.
 - **Key Features:** Native `.ipynb` support, interactive variable dataframe viewer, GitHub Copilot integration, remote development containers (Dev Containers).
 
-### 2. [DBeaver](https://github.com/dbeaver/dbeaver) [![GitHub stars](https://img.shields.io/github/stars/dbeaver/dbeaver?style=social&color=white)](https://github.com/dbeaver/dbeaver/stargazers)
+### 2. [DBeaver](https://github.com/dbeaver/dbeaver) [![GitHub_Stars](https://img.shields.io/github/stars/dbeaver/dbeaver?style=social&color=white)](https://github.com/dbeaver/dbeaver/stargazers)
 - **License:** Apache-2.0  
 - **Primary Languages:** Java, SQL  
 - **Overview:** Free universal database tool and SQL IDE supporting any database with a JDBC driver (PostgreSQL, MySQL, ClickHouse, Snowflake, DuckDB, SQLite, BigQuery). Essential for analytical engineers and data scientists inspecting tables, writing complex analytical SQL, and visualizing schema relationships.
 - **Key Features:** ER diagram generation, spatial data viewer (GIS), data export to CSV/JSON/Markdown, visual query builder, and mock data generation.
 
-### 3. [Marimo](https://github.com/marimo-team/marimo) [![GitHub stars](https://img.shields.io/github/stars/marimo-team/marimo?style=social&color=white)](https://github.com/marimo-team/marimo/stargazers)
+### 3. [Marimo](https://github.com/marimo-team/marimo) [![GitHub_Stars](https://img.shields.io/github/stars/marimo-team/marimo?style=social&color=white)](https://github.com/marimo-team/marimo/stargazers)
 - **License:** Apache-2.0  
 - **Primary Languages:** Python, TypeScript  
 - **Overview:** A next-generation reactive Python notebook that solves the hidden-state reproducibility problems plaguing legacy notebooks. Running a cell automatically triggers all downstream dependent cells (like a spreadsheet DAG). Can be executed as standard pure Python scripts, deployed as interactive web apps, or compiled to WASM.
 - **Key Features:** Reactive execution graph, pure Python `.py` file format, built-in interactive UI elements (sliders, dropdowns, tables), package sandboxing, and zero hidden out-of-order state.
 
-### 4. [JupyterLab](https://github.com/jupyterlab/jupyterlab) [![GitHub stars](https://img.shields.io/github/stars/jupyterlab/jupyterlab?style=social&color=white)](https://github.com/jupyterlab/jupyterlab/stargazers)
+### 4. [JupyterLab](https://github.com/jupyterlab/jupyterlab) [![GitHub_Stars](https://img.shields.io/github/stars/jupyterlab/jupyterlab?style=social&color=white)](https://github.com/jupyterlab/jupyterlab/stargazers)
 - **License:** BSD-3-Clause  
 - **Primary Languages:** TypeScript, Python  
 - **Overview:** The modular and extensible next-generation web interface for Project Jupyter. Supports 40+ programming languages through pluggable kernels (IPython, IRkernel, IJulia). Offers tabbed dock panels, integrated terminals, markdown renderers, and a massive ecosystem of third-party extensions.
 - **Key Features:** Flexible multi-panel layout, interactive debugger, real-time collaboration (RTC) extension, Git integration, and language-agnostic kernel execution.
 
-### 5. [Jupyter Notebook](https://github.com/jupyter/notebook) [![GitHub stars](https://img.shields.io/github/stars/jupyter/notebook?style=social&color=white)](https://github.com/jupyter/notebook/stargazers)
+### 5. [Jupyter Notebook](https://github.com/jupyter/notebook) [![GitHub_Stars](https://img.shields.io/github/stars/jupyter/notebook?style=social&color=white)](https://github.com/jupyter/notebook/stargazers)
 - **License:** BSD-3-Clause  
 - **Primary Languages:** Python, JavaScript  
 - **Overview:** The foundational document-centric interactive computing standard. Combines live code execution, equations, narrative prose, and rich visual output into a shareable `.ipynb` file format that underpins the entire modern data science industry.
 - **Key Features:** Document-oriented interface, lightweight setup, broad educational adoption, and seamless export to HTML, PDF, and LaTeX via nbconvert.
 
-### 6. [Spyder IDE](https://github.com/spyder-ide/spyder) [![GitHub stars](https://img.shields.io/github/stars/spyder-ide/spyder?style=social&color=white)](https://github.com/spyder-ide/spyder/stargazers)
+### 6. [Spyder IDE](https://github.com/spyder-ide/spyder) [![GitHub_Stars](https://img.shields.io/github/stars/spyder-ide/spyder?style=social&color=white)](https://github.com/spyder-ide/spyder/stargazers)
 - **License:** MIT License  
 - **Primary Languages:** Python  
 - **Overview:** The Scientific Python Development Environment—designed specifically for scientists, researchers, and quantitative analysts. Provides a familiar MATLAB-style experience with an interactive IPython console, deep multi-dimensional variable inspector, and Matplotlib integration.
 - **Key Features:** Interactive Variable Explorer for NumPy arrays and Pandas DataFrames, real-time code analysis, integrated documentation viewer, and advanced interactive debugging.
 
-### 7. [JupyterHub](https://github.com/jupyterhub/jupyterhub) [![GitHub stars](https://img.shields.io/github/stars/jupyterhub/jupyterhub?style=social&color=white)](https://github.com/jupyterhub/jupyterhub/stargazers)
+### 7. [JupyterHub](https://github.com/jupyterhub/jupyterhub) [![GitHub_Stars](https://img.shields.io/github/stars/jupyterhub/jupyterhub?style=social&color=white)](https://github.com/jupyterhub/jupyterhub/stargazers)
 - **License:** BSD-3-Clause  
 - **Primary Languages:** Python  
 - **Overview:** The multi-user orchestrator for Jupyter Notebooks and JupyterLab. Enables universities, research laboratories, and corporate data teams to serve scalable, containerized computing environments to thousands of simultaneous users on Kubernetes (Zero to JupyterHub) or Docker.
 - **Key Features:** Pluggable authentication (OAuth, GitHub, LDAP, PAM), containerized user pod spawning, dynamic resource quotas, and centralized administration.
 
-### 8. [Apache Zeppelin](https://github.com/apache/zeppelin) [![GitHub stars](https://img.shields.io/github/stars/apache/zeppelin?style=social&color=white)](https://github.com/apache/zeppelin/stargazers)
+### 8. [Apache Zeppelin](https://github.com/apache/zeppelin) [![GitHub_Stars](https://img.shields.io/github/stars/apache/zeppelin?style=social&color=white)](https://github.com/apache/zeppelin/stargazers)
 - **License:** Apache-2.0  
 - **Primary Languages:** Java, Scala, Python  
 - **Overview:** Web-based polyglot notebook designed for distributed Big Data analytics. Features pluggable backend interpreters that enable seamless mixing of Apache Spark (Scala), PySpark, SQL, Python, R, and Shell within the same computational notebook session.
 - **Key Features:** Native Apache Spark cluster integration, dynamic forms and widgets, multi-interpreter architecture, and built-in interactive pivot tables and charts.
 
-### 9. [Quarto CLI](https://github.com/quarto-dev/quarto-cli) [![GitHub stars](https://img.shields.io/github/stars/quarto-dev/quarto-cli?style=social&color=white)](https://github.com/quarto-dev/quarto-cli/stargazers)
+### 9. [Quarto CLI](https://github.com/quarto-dev/quarto-cli) [![GitHub_Stars](https://img.shields.io/github/stars/quarto-dev/quarto-cli?style=social&color=white)](https://github.com/quarto-dev/quarto-cli/stargazers)
 - **License:** GPL-2.0  
 - **Primary Languages:** TypeScript, Pandoc  
 - **Overview:** An open-source scientific and technical publishing system from Posit. Compiles plain markdown text, Jupyter Notebooks, or Knitr documents into high-quality publications, books, interactive dashboards, presentations, and websites across Python, R, Julia, and Observable.
 - **Key Features:** Multi-language execution, publication-quality typography, automated citation formatting, interactive HTML widgets, and static site generator capabilities.
 
-### 10. [Orange Data Mining](https://github.com/biolab/orange3) [![GitHub stars](https://img.shields.io/github/stars/biolab/orange3?style=social&color=white)](https://github.com/biolab/orange3/stargazers)
+### 10. [Orange Data Mining](https://github.com/biolab/orange3) [![GitHub_Stars](https://img.shields.io/github/stars/biolab/orange3?style=social&color=white)](https://github.com/biolab/orange3/stargazers)
 - **License:** GPL-3.0  
 - **Primary Languages:** Python  
 - **Overview:** Open-source visual programming environment for exploratory data analysis, data mining, and machine learning. Users drag and drop prebuilt analytical widgets to build interactive workflows with zero code required.
 - **Key Features:** Rich interactive visual widgets (scatter plots, dendrograms, tree viewers), visual model training (Random Forest, SVM, Naive Bayes), and add-on extensions for bioinformatics and text mining.
 
-### 11. [Pluto.jl](https://github.com/fonsp/Pluto.jl) [![GitHub stars](https://img.shields.io/github/stars/fonsp/Pluto.jl?style=social&color=white)](https://github.com/fonsp/Pluto.jl/stargazers)
+### 11. [Pluto.jl](https://github.com/fonsp/Pluto.jl) [![GitHub_Stars](https://img.shields.io/github/stars/fonsp/Pluto.jl?style=social&color=white)](https://github.com/fonsp/Pluto.jl/stargazers)
 - **License:** MIT License  
 - **Primary Languages:** Julia, JavaScript  
 - **Overview:** Lightweight, reactive notebook environment built specifically for the Julia scientific language. Every cell behaves like a reactive cell in a computational graph—changing a variable in one cell immediately and automatically recalculates all affected cells without manual execution.
 - **Key Features:** 100% reactive execution, pure Julia script persistence (`.jl`), built-in package environment management, interactive UI slider bindings, and zero hidden global mutable state.
 
-### 12. [RStudio Desktop & Server](https://github.com/rstudio/rstudio) [![GitHub stars](https://img.shields.io/github/stars/rstudio/rstudio?style=social&color=white)](https://github.com/rstudio/rstudio/stargazers)
+### 12. [RStudio Desktop & Server](https://github.com/rstudio/rstudio) [![GitHub_Stars](https://img.shields.io/github/stars/rstudio/rstudio?style=social&color=white)](https://github.com/rstudio/rstudio/stargazers)
 - **License:** AGPL-3.0 (Open-Source Edition)  
 - **Primary Languages:** C++, Java, TypeScript, R  
 - **Overview:** The quintessential integrated development environment for the R language. Combines a console, syntax-highlighting editor with smart completion, workspace environment inspector, integrated documentation, graphics plotting pane, and comprehensive package building tools.
 - **Key Features:** Native package management, Shiny application preview and debugging, Git/SVN version control pane, Knitr report authoring, and workspace history persistence.
 
-### 13. [Polynote](https://github.com/polynote/polynote) [![GitHub stars](https://img.shields.io/github/stars/polynote/polynote?style=social&color=white)](https://github.com/polynote/polynote/stargazers)
+### 13. [Polynote](https://github.com/polynote/polynote) [![GitHub_Stars](https://img.shields.io/github/stars/polynote/polynote?style=social&color=white)](https://github.com/polynote/polynote/stargazers)
 - **License:** Apache-2.0  
 - **Primary Languages:** Scala, TypeScript, Python  
 - **Overview:** Created by Netflix, Polynote is a polyglot interactive notebook with first-class Apache Spark and Scala support. Enforces deterministic top-to-bottom cell execution to eliminate reproducibility hazards and allows transparent data sharing across Scala, Python, and SQL cells.
 - **Key Features:** Top-to-bottom execution flow, interactive Scala auto-completion via metals, seamless Spark cluster monitoring, and cross-language variable sharing.
 
-### 14. [Positron](https://github.com/posit-dev/positron) [![GitHub stars](https://img.shields.io/github/stars/posit-dev/positron?style=social&color=white)](https://github.com/posit-dev/positron/stargazers)
+### 14. [Positron](https://github.com/posit-dev/positron) [![GitHub_Stars](https://img.shields.io/github/stars/posit-dev/positron?style=social&color=white)](https://github.com/posit-dev/positron/stargazers)
 - **License:** Elastic License 2.0 / Open-Source Core  
 - **Primary Languages:** TypeScript, Python, R  
 - **Overview:** Posit's next-generation data science IDE built on the modern VS Code Code-OSS foundation. Engineered specifically for exploratory data science in Python and R, offering a persistent console, active data explorer, dedicated variables pane, and native AI pair programming.
